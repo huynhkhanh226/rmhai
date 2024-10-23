@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "restart": "ssh root@103.199.19.151 '/www/wwwroot/rmhai/restart.sh'"
   },
   "dependencies": {
     "react": "19.0.0-rc-69d4b800-20241021",
